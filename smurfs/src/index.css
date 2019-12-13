@@ -2,4 +2,63 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-image: url("./welcome-to-village.jpg");
+  background-repeat: no-repeat;
+  background-size: 105%;
+  font-family: "Luckiest Guy", cursive;
+}
+.header {
+  width: 50%;
+}
+.forms {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-left: 35%;
+}
+input {
+  border-radius: 30px;
+  font-size: larger;
+  border: none;
+  margin-bottom: 8%;
+  padding: 5px;
+}
+label {
+  font-size: large;
+}
+h1 {
+  margin-top: 20%;
+  background-color: #fff;
+  padding: 5px;
+  padding-top: 10px;
+  border-radius: 30px;
+}
+button {
+  border-radius: 30px;
+  font-size: larger;
+  color: black;
+  font-family: "Luckiest Guy", cursive;
+  padding: 10px;
+}
+.smurf-div {
+  width: 87%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.outtersmurfcard {
+  background-color: #f42629;
+  border-radius: 20px;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+.smurfcard {
+  background-color: #fff;
+  width: 90%;
+  border-radius: 20px;
+  margin-left: 14px;
+  padding: 1px;
+  color: #825738;
 }

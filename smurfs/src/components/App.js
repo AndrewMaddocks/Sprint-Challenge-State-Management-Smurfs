@@ -6,9 +6,11 @@ import SmurfsForm from "./SmurfsForm";
 function App() {
   return (
     <div className="App">
-      <h1>SMURFS!</h1>
       <SmurfsList />
-      <SmurfsForm />
+      <div className="header">
+        <h1>Welcome To The Village!</h1>
+        <SmurfsForm />
+      </div>
     </div>
   );
 }
